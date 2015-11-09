@@ -1,1 +1,141 @@
-header{border:1px solid #f00}
+*{
+	padding: 0;
+	margin: 0;
+}
+
+@font-face{
+	font-family: 'jota';
+	src: url("../fonts/Comfortaa-Light.ttf");
+}
+
+.clear{
+	clear: both;
+}
+hr{
+	width: 66%;
+	height: 0.1px solid #fff;
+
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+body{
+	font-family: "jota";
+}
+
+.cabecera{
+	border: 0px solid red;
+	height: 80px;
+	background-color: #fff;
+	border-bottom: 1px solid #02838A;	
+	width: 100%	
+}
+
+.cabecera-sombra{
+    position: relative;
+    float: left;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.cabecera-sombra:before, .cabecera-sombra:after{
+    content: "";
+    position: absolute;
+    z-index: -2;
+}
+.cabecera-sombra:before{
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    transform: rotate(3deg);
+}
+.cabecera-sombra:after{
+    right: 10px;
+    bottom: 15px;
+    width: 50%;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}
+
+
+
+#logo{
+	border: 2px solid #02838A;
+	width:50px;
+	-webkit-border-radius:50%;
+	margin: 10px;
+	float: left;
+}
+
+#menu_h{
+	float: left;
+	list-style: none;
+	display: block;
+	margin-left: 7%;
+}
+
+.pic{
+	width: 300px;
+	height: 300px;
+	margin: 30px;
+	border-radius: 50%;
+}
+
+#menu_h li{
+	float: left;
+	margin-top: 5px;
+	padding: 20px;
+}
+
+.separador{
+	height: 9px;
+	background:#e1e1e1;
+}
+
+.info-sec{
+	height: 450px;
+	color: #fff;
+    padding: 5%;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.info-personal{
+	background: #00494D;
+}
+
+.pic-personal{
+	float: left;
+}
+
+.info-formacion{
+	background: #52BC89;
+}
+
+.info-work{
+	background: #6F438A;
+}
+
+.pic-formacion{
+	float: right;
+}
+
+
+h1,h2,h3,h4,h5{
+	text-transform: uppercase;
+	padding: 13px;
+}
+
+.parrafo{
+	margin: 60px;
+	text-align: justify !important;
+}
