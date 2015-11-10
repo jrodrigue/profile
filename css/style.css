@@ -96,6 +96,10 @@ body{
 	padding: 20px;
 }
 
+#menu_h li:hover{
+	border-bottom: 4px solid #ED870D;
+}
+
 .separador{
 	height: 9px;
 	background:#e1e1e1;
@@ -147,24 +151,31 @@ h1,h2,h3,h4,h5{
 #footer{
 	background: #333740;
 	height: 30;
-	padding: 40px;
+	padding: 5px;
 	color: #fff;
 	font-size: 19px;
-	height: 90px;
+	height: 57px;
 }
 
 #footer div:first-child{
 	padding: 5px;
 	width:40%;
 	float: left;
-	margin: 15px;
+	margin-left: 50px;
 }
 
 #footer div:last-child{
 	padding: 5px;
 	width:40%;
 	float: right;
-	margin: 15px;
+	margin-right: 50px;
+	text-align: right;
+}
+
+.ic-social{
+	font-size: 26px !important;
+	margin-left: 6px;
+	margin-top: 14px !important;
 }
 
 .cp{
@@ -174,15 +185,10 @@ h1,h2,h3,h4,h5{
 	color: rgba(0,0,0, 0.8);
 
 }
-
-
-
-
-
-
-
-
-
+.tag-email{
+	font-size: 16px;
+	padding: 20px;
+}
 
 
 
