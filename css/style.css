@@ -121,6 +121,10 @@ body{
 	background: #52BC89;
 }
 
+.info-proyectos{
+	background: #ED870D;
+}
+
 .info-work{
 	background: #6F438A;
 }
@@ -139,3 +143,57 @@ h1,h2,h3,h4,h5{
 	margin: 60px;
 	text-align: justify !important;
 }
+
+#footer{
+	background: #333740;
+	height: 30;
+	padding: 40px;
+	color: #fff;
+	font-size: 19px;
+	height: 90px;
+}
+
+#footer div:first-child{
+	padding: 5px;
+	width:40%;
+	float: left;
+	margin: 15px;
+}
+
+#footer div:last-child{
+	padding: 5px;
+	width:40%;
+	float: right;
+	margin: 15px;
+}
+
+.cp{
+	padding: 10px;
+	font-size: 9px;
+	background: #CDCFD2;
+	color: rgba(0,0,0, 0.8);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
